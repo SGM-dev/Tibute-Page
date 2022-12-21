@@ -49,4 +49,58 @@ a:visited {
   }
 }
 
+img {
+    max-width: 100%;
+    display: block;
+    border-radius: 10px;
+    height: auto;
+    margin: 0 auto;
+}
 
+#img-div {
+    background: #f3efef;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#img-caption {
+    margin: 15px 0;
+}
+
+@media (max-width: 460px) {
+    #img-caption {
+        font-size: 1.2rem;
+    }
+}
+
+#headline {
+    margin: 50px 0;
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+    max-width:fit-content;
+    line-height: 1.4;
+    margin: 50px auto;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+li {
+    margin: 15px 0;
+}
+
+blockquote {
+    font-style: italic;
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+    background: rgb(253, 253, 253);
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 80%;
+}
